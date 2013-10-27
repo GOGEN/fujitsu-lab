@@ -8,6 +8,7 @@ public class JavaPublisher{
 		namesbuf[names.length]="Marat Latypov";
 		names=namesbuf;
 		for(int i=0;i<names.length;i++){
+			System.out.println(i+")");
 			System.out.print(names[i]+", ");
 		}
 	}
